@@ -61,6 +61,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: goldenrod;
+    transition: color 0.5s;
     padding-bottom: 1em;
     border-bottom: 1px solid goldenrod;
 }
