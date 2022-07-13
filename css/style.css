@@ -218,3 +218,14 @@ form div{
     justify-content: center;
     margin: 3em 0;
 }
+
+
+h1 {
+    animation: text-shadow 1.5s ease-in-out infinite;   
+}
+
+h1:hover {
+    animation-play-state: paused;
+}
+
+
