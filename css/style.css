@@ -13,5 +13,10 @@ body{
 }
 
 header{
-    height: 150px ;
+    height: auto ;
+}
+
+#footer{
+    background-color: black;
+    border-top: 2px goldenrod solid;
 }
