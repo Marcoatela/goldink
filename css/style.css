@@ -6,17 +6,62 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 
 body{
-    
+   
 }
 
 header{
     height: auto ;
+    
 }
 
-#footer{
+.barraNavegacion{   
+    border-bottom: 2px solid goldenrod;
+}
+
+.barraNavegacion a{
+    color: black;
+}
+
+.barraNavegacion a:hover{
+    color: goldenrod;
+}
+
+.imagenPrincipal{
+    background-image: url(../img/ibiza.png);
+    background-size: cover;
+    height: 50vh;
+}
+
+.titulo{
+    padding-top: 6em;
+}
+
+.titulo h1{
+    color: goldenrod;
+    font-size: 4em;
+}
+
+.titulo h2{
+    color: aliceblue;
+    font-size: 2em ;
+}
+
+.section1{
+    padding: 2em;
+    height: 40%;
+    
+}
+
+footer{
     background-color: black;
     border-top: 2px goldenrod solid;
+}
+
+.areaFooter{
+    padding: 1em 0;
+    color: rgb(107, 107, 107);
 }
