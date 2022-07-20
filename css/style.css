@@ -41,6 +41,11 @@ body{
         color: goldenrod;
     }
 
+    .redes a{
+        text-decoration: none;
+        color: #fff;
+    }
+
     h1{
         animation: text-shadow 1.5s ease-in-out infinite;   
     }
