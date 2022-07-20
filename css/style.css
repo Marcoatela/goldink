@@ -19,9 +19,9 @@ body{
 }
 
 
-    @media (max-width:768px) {
-        #intro{
-            width: 90% !important;
+    @media (max-width:576px) {
+        .section1{
+            text-align: center !important;
         }
     }
 
