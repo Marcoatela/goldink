@@ -17,3 +17,26 @@ body{
     max-height: 80%;
 
 }
+
+
+    @media (max-width:768px) {
+        #intro{
+            width: 90% !important;
+        }
+    }
+
+    footer{
+        grid-area: footer;
+        background-color: black;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    footer a:hover{
+        color: goldenrod;
+    }
