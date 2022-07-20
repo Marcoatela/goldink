@@ -16,8 +16,8 @@
 
 <body>
     <!-- abre el header + nav -->
-    <header>
-        <nav class="navbar navbar-expand-lg barraNavegacion">
+    <header class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-md barraNavegacion">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="./img/logo-goldink.png" alt="Logo Gold Ink">
@@ -50,51 +50,35 @@
     <!-- cierra el header -->
 
     <!-- abre el contenido principal -->
-    <main>
-
-        <div class="container-fluid imagenPrincipal">
-            <div class="container titulo">
-                <div class="row justify-content-start">
-                    <div class="col-lg-6">
-                        <h1>Gold Ink</h1>
-                        <h2>Ibiza Tattoo</h2>
-                    </div>
-                </div>
+    <main>  
+      <section class="vh-80">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/ibiza.png" class="d-block w-100" alt="slide1">
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row section1">
-              <div class="col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum harum voluptatem at, voluptatibus sit, quos corporis consequuntur esse reiciendis quisquam eveniet. Reprehenderit voluptatum eos alias rerum voluptate inventore dolores, delectus laboriosam, itaque consequatur, accusantium facilis ratione rem tempore ipsa ullam voluptatem incidunt. Dolorum illum deserunt asperiores culpa, quas amet!</div>
-
-              <div class="col-sm-6" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, debitis unde. Quisquam, eaque. Minus molestias quis veniam consequuntur eius corporis dolore soluta laborum recusandae saepe, vero aperiam assumenda placeat omnis quo earum, adipisci dolorum atque doloremque consectetur. Laborum, a recusandae.</div>
+            <div class="carousel-item">
+              <img src="./img/ibiza2.jpg" class="d-block w-100" alt="slide2">
             </div>
+            <div class="carousel-item">
+              <img src="./img/ibiza3.png" class="d-block w-100" alt="slide">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </section>
     </main>
     <!-- cierra el contenido principal -->
         
     <footer>
-        <div class="container" id="footer">
-             <div class="row justify-content-center areaFooter">
-                <div class="col-lg-6 col-sm-4" >
-                    <h3>Seguinos</h3>
-                    <ul>
-                        <li><a href=""></a>Instagram</li>
-                        <li><a href=""></a>Facebook</li>
-                        <li><a href=""></a>YouTube</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-sm-4">
-                    <ul>
-                        <li><a href=""></a>Inicio</li>
-                        <li><a href=""></a>Nosotros</li>
-                        <li><a href=""></a>Servicios</li>
-                        <li><a href=""></a>Galeria</li>
-                        <li><a href=""></a>Nosotros</li>
-                    </ul>
-                </div>
-             </div>
-        </div>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
