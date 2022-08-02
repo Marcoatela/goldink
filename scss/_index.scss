@@ -2,3 +2,8 @@
     color: $color-secundario;
 }
 
+footer {
+    grid-area: footer;
+    background-color: black;
+    text-align: center;
+    padding-top: 1em; }

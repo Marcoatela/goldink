@@ -1,8 +1,12 @@
-
-    $color-principal :goldenrod;
-    $color-secundario: black;
+ $color-principal :goldenrod;
+ $color-secundario: black;
 
 
 $margin-auto:
     0 auto;
 
+%extend p{
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+}
