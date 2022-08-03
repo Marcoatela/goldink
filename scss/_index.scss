@@ -4,13 +4,23 @@
     color: $color-secundario;
 }
 
-footer {
+footer{
+    @include footer1 (black, white, center);
     grid-area: footer;
-    background-color: black;
-    text-align: center;
-    padding-top: 1em; }
+    padding-top: 1em;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: $color-principal;
+}
 
 p{
     @extend %parrafo;
     color: black;
 }
+

@@ -17,19 +17,6 @@ body {
   .section1 {
     text-align: center !important; } }
 
-footer {
-  grid-area: footer;
-  background-color: black;
-  text-align: center;
-  padding-top: 1em; }
-
-footer a {
-  text-decoration: none;
-  color: #fff; }
-
-footer a:hover {
-  color: goldenrod; }
-
 .redes a {
   text-decoration: none;
   color: #fff; }
@@ -68,14 +55,24 @@ p {
   font-size: 12px;
   font-weight: 300; }
 
+/* MIXINS */
 .yourBestMemory {
   color: black; }
 
 footer {
-  grid-area: footer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: black;
+  color: white;
   text-align: center;
+  grid-area: footer;
   padding-top: 1em; }
+
+footer a {
+  text-decoration: none;
+  color: #fff; }
+
+footer a:hover {
+  color: goldenrod; }
 
 p {
   color: black; }
