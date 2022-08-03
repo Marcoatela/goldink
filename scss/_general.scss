@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -16,10 +17,6 @@ body{
 .carousel-inner{
     max-height: 80vh;
 
-}
-
-p{
-    @extend %p;
 }
 
     @media (max-width:576px) {

@@ -1,3 +1,5 @@
+@import './base/_extends';
+
 .yourBestMemory{
     color: $color-secundario;
 }
@@ -7,3 +9,8 @@ footer {
     background-color: black;
     text-align: center;
     padding-top: 1em; }
+
+p{
+    @extend %parrafo;
+    color: black;
+}
