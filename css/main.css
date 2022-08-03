@@ -52,8 +52,8 @@ h1 {
   animation: text-shadow 1.5s ease-in-out infinite; }
 
 p {
-  font-size: 12px;
-  font-weight: 300; }
+  font-size: 14px;
+  font-weight: 500; }
 
 /* MIXINS */
 .yourBestMemory {
