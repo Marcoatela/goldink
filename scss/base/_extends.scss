@@ -5,7 +5,6 @@
 
 /* MIXINS */
 @mixin footer1 ($bg-color, $textcolor, $texalign) {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: $bg-color;
     color: $textcolor;
     text-align: $texalign;
