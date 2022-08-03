@@ -3,6 +3,13 @@
     font-weight: 500;
 }
 
+%contenido{
+    padding: 2em;
+    margin: 1em auto;
+    height: 80vh;
+    text-align: center;
+}
+
 /* MIXINS */
 @mixin footer1 ($bg-color, $textcolor, $texalign) {
     background-color: $bg-color;

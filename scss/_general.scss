@@ -1,4 +1,6 @@
 
+@import './base/_extends';
+
 *{
     margin: 0;
     padding: 0;
@@ -45,5 +47,16 @@ iframe {
     height: 50vh;
     margin: 3rem 0;
    }
+
+   .contenidoPrincipal{
+    @extend %contenido;
+
+        h1{
+            color: $color-principal;
+            margin-bottom: 1em;
+        }
+   }
+
+   
 
   
