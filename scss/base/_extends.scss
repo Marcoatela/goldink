@@ -1,14 +1,12 @@
 %parrafo{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 %contenido{
-    padding: 2em;
-    margin: 1em auto;
+    margin: 2em auto;
     height: 100%;
     text-align: center;
-    color: green;
 }
 
 /* MIXINS */
@@ -16,4 +14,5 @@
     background-color: $bg-color;
     color: $textcolor;
     text-align: $texalign;
+    align-items: center;
 }

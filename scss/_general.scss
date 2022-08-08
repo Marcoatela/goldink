@@ -48,7 +48,7 @@ iframe {
     margin: 3rem 0;
    }
 
-   .contenidoPrincioal{
+   main {
     @extend %contenido;
 
         h1{
@@ -58,6 +58,17 @@ iframe {
         }
    }
 
+   .formulario{
+     margin-bottom: 2em;
+   }
+
+   .btn{
+    background-color: $color-principal;
+    min-width: 25%;
+   }
+
+
+   
 
    
 

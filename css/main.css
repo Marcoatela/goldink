@@ -1,11 +1,10 @@
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500; }
 
-.contenidoPrincipal {
-  padding: 2em;
-  margin: 1em auto;
-  height: 80vh;
+main {
+  margin: 2em auto;
+  height: 100%;
   text-align: center; }
 
 /* MIXINS */
@@ -43,9 +42,16 @@ iframe {
   height: 50vh;
   margin: 3rem 0; }
 
-.contenidoPrincipal h1 {
+main h1 {
   color: goldenrod;
   margin-bottom: 1em; }
+
+.formulario {
+  margin-bottom: 2em; }
+
+.btn {
+  background-color: goldenrod;
+  min-width: 25%; }
 
 .animate {
   text-transform: uppercase;
@@ -67,13 +73,12 @@ h1 {
   animation: text-shadow 1.5s ease-in-out infinite; }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500; }
 
-.contenidoPrincipal {
-  padding: 2em;
-  margin: 1em auto;
-  height: 80vh;
+main {
+  margin: 2em auto;
+  height: 100%;
   text-align: center; }
 
 /* MIXINS */
@@ -84,6 +89,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  align-items: center;
   grid-area: footer;
   padding-top: 1em; }
 
