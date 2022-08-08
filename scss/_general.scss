@@ -48,14 +48,16 @@ iframe {
     margin: 3rem 0;
    }
 
-   .contenidoPrincipal{
+   .contenidoPrincioal{
     @extend %contenido;
 
         h1{
             color: $color-principal;
             margin-bottom: 1em;
+
         }
    }
+
 
    
 
