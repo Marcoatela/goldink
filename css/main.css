@@ -53,6 +53,9 @@ main h1 {
   background-color: goldenrod;
   min-width: 25%; }
 
+footer {
+  margin-bottom: 1em; }
+
 .animate {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg, goldenrod 0%, #744b01 29%, goldenrod 50%, #eee963 75%, goldenrod 100%);
@@ -102,6 +105,9 @@ footer a:hover {
 
 p {
   color: black; }
+
+.redes a {
+  margin-left: 0.5em; }
 
 .contacto {
   margin: 3rem 0; }
