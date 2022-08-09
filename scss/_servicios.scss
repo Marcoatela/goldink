@@ -1,0 +1,22 @@
+.contenidoServicios{
+    background-color: $color-principal;
+    height: auto;
+    padding: 2em;
+    border-radius: 6px;
+
+    p{
+        margin: 3em 5em;
+    }
+
+    h2{
+        margin-bottom: 1em;
+    }
+
+    img:hover{
+        box-shadow: 8px 12px 5px -4px rgba(0,0,0,0.43);
+        -webkit-box-shadow: 8px 12px 5px -4px rgba(0,0,0,0.43);
+        -moz-box-shadow: 8px 12px 5px -4px rgba(0,0,0,0.43);
+    }
+}
+
+

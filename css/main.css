@@ -111,3 +111,17 @@ p {
 
 .contacto {
   margin: 3rem 0; }
+
+.contenidoServicios {
+  background-color: goldenrod;
+  height: auto;
+  padding: 2em;
+  border-radius: 6px; }
+  .contenidoServicios p {
+    margin: 3em 5em; }
+  .contenidoServicios h2 {
+    margin-bottom: 1em; }
+  .contenidoServicios img:hover {
+    box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43);
+    -webkit-box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43); }
