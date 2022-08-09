@@ -1,6 +1,5 @@
 p {
-  font-size: 16px;
-  font-weight: 500; }
+  font-size: 16px; }
 
 main {
   margin: 2em auto;
@@ -76,8 +75,7 @@ h1 {
   animation: text-shadow 1.5s ease-in-out infinite; }
 
 p {
-  font-size: 16px;
-  font-weight: 500; }
+  font-size: 16px; }
 
 main {
   margin: 2em auto;
@@ -94,7 +92,7 @@ footer {
   text-align: center;
   align-items: center;
   grid-area: footer;
-  padding-top: 1em; }
+  padding: 1.5em 0 1em 0; }
 
 footer a {
   text-decoration: none;
@@ -125,3 +123,13 @@ p {
     box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43);
     -webkit-box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43);
     -moz-box-shadow: 8px 12px 5px -4px rgba(0, 0, 0, 0.43); }
+
+.contenidoNosotros {
+  height: auto; }
+  .contenidoNosotros h2 {
+    margin-top: 1em; }
+  .contenidoNosotros p {
+    padding: 1,5em; }
+
+.colfausto {
+  padding-right: 5px; }
